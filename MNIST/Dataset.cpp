@@ -1,7 +1,5 @@
 #include "Dataset.h"
 
-//http://nonbiri-tereka.hatenablog.com/entry/2014/09/18/100439
-
 int reverseInt(int i) {
     unsigned char c1, c2, c3, c4;
 
