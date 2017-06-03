@@ -1,2 +1,2 @@
-# jautoencoder
-Autoencoder, Deep Learning, Neural Network
+# ディープラーニング、Autoencoder, Javaプログラム
+
