@@ -165,7 +165,7 @@ public class Net {
                 System.out.println("execBackpropagation 層 [ " + i + " ] のDelta計算");
             }
             layer.getLayerDelta(prev.layerDelta);
-            adjustingPreLayerWeightsOut(i);
+            //adjustingPreLayerWeightsOut(i);
             if (DEBUG) {
                 JDeepLearning.showVectorVals("execBackpropagation このレイヤーのDelta", layer.layerDelta);
             }
