@@ -46,11 +46,11 @@ int main (int argc, char** argv) {
     vector<vector<double> > imgdata;
     vector<double> imglabel;
     if(testPhase){
-        imgdata = mnist.readTrainingFile("/Users/washida/Project/Robot/CreateRobot/Controler/MnistData/data/t10k-images-idx3-ubyte");
-        imglabel = mnist.readLabelFile("/Users/washida/Project/Robot/CreateRobot/Controler/MnistData/data/t10k-labels-idx1-ubyte");
+        imgdata = mnist.readTrainingFile("/absolutePathto/t10k-images-idx3-ubyte");
+        imglabel = mnist.readLabelFile("/absolutePathto/t10k-labels-idx1-ubyte");
     }else{
-        imgdata = mnist.readTrainingFile("/Users/washida/Project/Robot/CreateRobot/Controler/MnistData/data/train-images-idx3-ubyte");
-        imglabel = mnist.readLabelFile("/Users/washida/Project/Robot/CreateRobot/Controler/MnistData/data/train-labels-idx1-ubyte");
+        imgdata = mnist.readTrainingFile("/absolutePathto/train-images-idx3-ubyte");
+        imglabel = mnist.readLabelFile("/absolutePathto/train-labels-idx1-ubyte");
     }
 
     time_t timer;
