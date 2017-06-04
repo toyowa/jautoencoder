@@ -35,3 +35,11 @@ MNISTデータの処理プログラムは、MNISTフォルダに置いた。デ�
 http://nonbiri-tereka.hatenablog.com/entry/2014/09/18/100439
 
 を参考にさせていただいた。
+
+# 解説サイト
+
+以下のサイトでより詳細な解説をしている。
+
+http://robo.genv.sophia.ac.jp/wp_robot/?p=1435
+
+http://robo.genv.sophia.ac.jp/wp_robot/?p=1438
